@@ -7,7 +7,7 @@
 <!---
 
 --->
--Câu 1 : 
+- Câu 1 : 
  - Spread operator là ba dấu chấm ( ...), có thể chuyển đổi một mảng thành một chuỗi các tham số được phân tách bằng dấu phẩy
  - Ex : var numbOne = [1, 2, 3];
  -     var numbTwo = [4, 5, 6];
@@ -20,11 +20,11 @@
 
   //mình muốn lấy những thuộc tính trong vehicleOne nhưng k phải tất cả thì mình sẽ dùng Destructuring để lấy những thuộc tính mình cần 
   
-  -Câu 2 : 
-    - trường hợp k cử dụng "use strict" nó sé là undefined hoặc là windown
-    - sử dụng "use strict" thì nó sẽ trỏ đến đối tượng chưa oj đó 
-     - khi mình tạo một oj mới thì this sẽ đc set cho oj mới đc tạo
-     - call(một kiểu string) vs apply(mảng) cho phép set giá trị của this khi gọi function.
+  - Câu 2 : 
+  - trường hợp k cử dụng "use strict" nó sé là undefined hoặc là windown
+  - sử dụng "use strict" thì nó sẽ trỏ đến đối tượng chưa oj đó 
+  - khi mình tạo một oj mới thì this sẽ đc set cho oj mới đc tạo
+  - call(một kiểu string) vs apply(mảng) cho phép set giá trị của this khi gọi function.
   
   - Câu 3:
   - tham chiếu của biến con vẫn bị thay dổi  vì do childer nó là một oj khi mình Spread operator thì childer nó đc lưu ở trong heap chứ k lưu trong 2 stack khác nhau
